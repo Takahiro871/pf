@@ -3,11 +3,15 @@
 
 
 <head>
+    <!-- 共通開始 -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../dist/output.css" rel="stylesheet">
-    <title>Document</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://use.typekit.net/vwg4dwd.css">
+    <!-- 共通終了 -->
+    <title>CV</title>
 </head>
 
 
@@ -16,17 +20,17 @@
 
   <p class="text-right">日本語 / English</p>
 
-  <div class="whitespace-pre-wrap">
-    <b>Takahiro Yanai</b>
+  <div class="whitespace-pre-wrap" id="cv">
+    <a href="home.html"><b>Takahiro Yanai</b></a>
     Software engineer, Composer, Designer in Japan
-
+    
     2018-2022 Kyoto University, BE Informatics and Mathematical Science
     2022 Kyoto Institute of Technology Graduate School of Science and Technology, Master's Program of Design <!-- 2022- University of Arts London, Global Collaborative Design Practice -->
-    
-    <b>HONORS AND AWARDS</b>
+
+    <b class="red">HONORS AND AWARDS</b>
     Student Encouragement Award of The 84th IPSJ National Convention
     
-    <b>CREDENTIALS and LANGUAGE</b>
+    <b class="blue">CREDENTIALS and LANGUAGE</b>
     IELTS(International English language testing system) score: Overall 7.5
     - Speaking 7.0 Listening 8.0 Reading 7.0 Writing 7.0
     TOEIC(Test of English for International Communication) score: 895
@@ -35,3 +39,31 @@
 </body>
 </html>
 
+
+
+<style>
+
+  /* 共通開始 */
+  body{
+    font-family: din-2014, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* 共通終了 */
+
+
+
+
+
+  #cv{
+    background-color: rgb(233, 245, 0);
+  }
+
+  .red{
+    color: rgb(255, 47, 0);
+  }
+
+  .blue{
+    color: rgb(0, 153, 255);
+  }
+</style>
